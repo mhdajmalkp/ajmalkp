@@ -11370,7 +11370,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 30px;
-  height: 150px; /* Set a fixed height for the testimonial card */
+  height: 170px; /* Set a fixed height for the testimonial card */
   overflow: hidden; /* Hide overflow content */
   border: 1px solid #ccc; /* Add border for consistency */
   border-radius: 10px;
@@ -11380,6 +11380,7 @@ p {
   min-width: 45px;
   max-width: 45px;
   z-index: 999;
+  
 }
 
 .testimonial-card-img {
@@ -11396,6 +11397,8 @@ p {
   background: #fff;
   padding: 20px 20px 20px 60px;
   border-radius: 0;
+  margin-left: 0; /* Ensure no left margin */
+  padding-left: 0;
 }
 
 .testimonial-card-title {

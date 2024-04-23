@@ -81,6 +81,21 @@ hr {
   height: 0;
   overflow: visible;
 }
+.containercasestudy {
+  max-width: 100%;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: auto;   /* Add vertical scrollbar if needed */
+}
+.contentcasestudy {
+  width: 100%;
+  /* Add other styling properties as needed */
+}
+.contentcasestudy img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
